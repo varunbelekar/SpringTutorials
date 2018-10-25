@@ -1,0 +1,15 @@
+package com.varun.beans;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Coach obj=new CricketCoach(); //TightCoupling
+		Coach obj1=new FootBallCoach();//TightCoupling
+		System.out.println(obj.getWorkout());
+		System.out.println(obj1.getWorkout());
+		
+		
+	}
+
+}

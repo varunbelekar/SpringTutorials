@@ -1,0 +1,5 @@
+package com.varun.beans;
+
+public class Student {
+
+}

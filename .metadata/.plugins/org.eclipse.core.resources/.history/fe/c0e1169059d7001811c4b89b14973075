@@ -1,0 +1,11 @@
+package com.varun.beans;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CricketCoach obj=new CricketCoach();
+		System.out.println(obj.getWorkout());
+	}
+
+}
