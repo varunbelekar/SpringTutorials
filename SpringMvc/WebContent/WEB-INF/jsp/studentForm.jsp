@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form:form modelAttribute="student" action="processForm2">
+<form:form action="processForm2">
 	Enter first name:<br>
 	<form:input path="firstName"/><br>
 	Enter last name:<br>

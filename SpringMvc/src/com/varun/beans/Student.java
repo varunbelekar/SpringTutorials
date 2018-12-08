@@ -1,6 +1,8 @@
 package com.varun.beans;
 
-public class Student {
+
+
+public class Student{
 	String firstName;
 	String lastName;
 	int age;

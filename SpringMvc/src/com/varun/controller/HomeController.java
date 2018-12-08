@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.varun.beans.Student;
 
@@ -15,9 +16,9 @@ public class HomeController {
 	
 	
 	@RequestMapping("/showForm")
-	public String showForm(Model model){
-		model.addAttribute("student",new Student());
-		return "studentForm";
+	public ModelAndView showForm(){
+		
+		return new ModelAndView("studentForm","command",new Student());
 	}
 	
 	@RequestMapping("/processForm")
